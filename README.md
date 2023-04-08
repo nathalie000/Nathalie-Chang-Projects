@@ -1,2 +1,3 @@
 # Nathalie-Chang-Projects
-## claw machine (verilog)
+## Claw Machine (verilog)
+## Essay Search (C++)
