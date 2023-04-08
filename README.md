@@ -1,2 +1,2 @@
 # Nathalie-Chang-Projects
-## claw machine ()
+## claw machine (verilog)
