@@ -6,8 +6,11 @@ DIY claw machine using FPGA
 Program that can find which ones contain the keywords among the given essays.  
 A practice of utilizing data structures (e.g. Trie)
 ## Computer Network Stop-and-wait Mechinism (C)
+Implementation of a server and client program,  
+where the client can download a video file 
+from the server using stop-and-wait mechanism through a UDP socket.
 ## ACM Multimedia 2021 Grand Challenge - Meet Deadline Requirements (Python)
-We implemented a bandwidth esitmator using reinforce learning to adjust sending rate,  
+Bandwidth esitmator impleneted using reinforce learning to adjust sending rate,  
 and tested several distinct score functions to find the best fit.  
 Details are written in report.
 ## Android Todolist Application (Kotlin)
