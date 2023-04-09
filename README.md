@@ -14,5 +14,5 @@ Details are written in report.
 This application combines todolist with pet raising game,  
 developed using kotlin under the Android Studio enviorment.
 ## Photo Source Classification (Python)
-Classifier that classifies whether a photo was taken by an Apple phone or Samsung phone.
+Classifier that classifies whether a photo was taken by an Apple phone or Samsung phone.  
 Our model structure and tuning details are showen in report.
