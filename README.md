@@ -1,4 +1,4 @@
-![image](https://github.com/nathalie000/Nathalie-Chang-Projects/assets/105977767/f928fe81-274e-4209-954e-3cddb45a6c9b)# Nathalie-Chang-Projects
+# Nathalie-Chang-Projects
 ## Animatable Musician with InstantAvatar
 Our goal is to utitlize Neural Radiance Field(NeRF) to construct animatable musician 3D models with apperances reconstructed from real life 2d images. Input a piece of
 music, then our system will synthesize a novel view video of the person playing the piece of music using certain instrument. Our final output is a video of the 3D human model interacting with certain object, which is a new application of a NeRF model.
