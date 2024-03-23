@@ -8,6 +8,7 @@ Experiments on pruning spkrec-ecapa-voxceleb speaker verification model and comp
 Reached similar error rate and was able to inference at a faster speed.
 ## Image classifaction Light Weight Model
 ## Smart Watch using LVGL
+A smart watch interface implemented using the computer graphic library LVGL.
 ## Claw Machine (Verilog)
 DIY claw machine using FPGA  
 [Demonstration Video](https://youtu.be/3RMaly5097s)
