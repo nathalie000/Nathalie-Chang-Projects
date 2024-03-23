@@ -1,0 +1,59 @@
+# Final Project
+
+Team14
+
+---
+
+## Dataset
+
+1. `mkdir dataset`
+2. `cd dataset`
+3. Download the dataset from https://www.kaggle.com/datasets/percywei/CS56000-BIRDS-DATA-V2 and unzip it.
+4. After downloading the dataset, the code structure of this project will be as follows:
+
+```
+├── README
+├── dataset
+│   ├── birds.csv
+│   ├── test
+│   ├── train
+│   └── valid
+├── dataset.py
+├── final_all.ipynb
+├── final_inference.ipynb
+├── network.py
+├── runs
+│   ├── student
+│   │   └── training_result
+│   │       └── student_model.pth
+│   ├── student_pruned_1
+│   │   └── training_result
+│   │       └── student_model.pth
+│   ├── student_pruned_2
+│   │   └── training_result
+│   │       └── student_model.pth
+│   └── teacher
+│       └── training_result
+│           └── teacher_model.pth
+├── tester.py
+└── trainer.py
+```
+
+## Training
+
+1. Run all cells in `final_all.ipynb`. This executes all processes, including both training and inference.
+2. The training pipeline includes training the teacher model, training the student model, training the 50% pruning student model, and training the 60% pruning student model. The checkpoints for each training session are saved separately at 
+    - `runs/teacher/training_result/teacher_model.pth`
+    - `runs/student/training_result/student_model.pth`
+    - `runs/student_pruned_1/training_result/student_model.pth`
+    - `runs/student_pruned_2/training_result/student_model.pth`
+
+## Inference
+
+1. Run all cells in `final_inference.ipynb`. This only executes the inference process using the 60% pruning student model, which is saved at `runs/student_pruned_2/training_result/student_model.pth`.
+2. The test result will be saved at `runs/student_pruned_2/testing_result/test_pred.csv`.
+
+## Result
+
+- F1-score: 0.969
+- Parameters size: 79,805 (~0.08M)
