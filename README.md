@@ -1,7 +1,7 @@
 # Nathalie-Chang-Projects
 ## Animatable Musician with InstantAvatar
 Our goal is to utitlize Neural Radiance Field(NeRF) to construct animatable musician 3D models with apperances reconstructed from real life 2d images. Input a piece of
-music, then our system will synthesize a novel views video of the person playing the piece of music using certain instrument.
+music, then our system will synthesize a novel view video of the person playing the piece of music using certain instrument. Our final output is a video of the 3D human model interacting with certain object, which is a new application of a NeRF model.
 
 ## Speaker Verfication Light Weight Model
 Experiments on pruning spkrec-ecapa-voxceleb speaker verification model and compared the error rate with original model trained on the same dataset.
