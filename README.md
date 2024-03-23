@@ -8,7 +8,7 @@ Experiments on pruning spkrec-ecapa-voxceleb speaker verification model and comp
 Reached similar error rate and was able to inference at a faster speed.
 ## Image classifaction Light Weight Model
 We trained a light wieght image classifacation model (ShuffleNetV2-x0.5) using data distillation and pruning. The model was trained and tested on the datset Modified BIRDS 525 SPECIES. We reached 0.969 F1-score, which was only 0.024 points less than a model (RegNetX-1.6GF
-) that has 109 times larger number of parameters than our model.
+) that has 109 times larger number of parameters than our model. Training detail and result analysis are in the report.
 ## Smart Watch using LVGL
 A smart watch interface implemented using the computer graphic library LVGL.
 ## Claw Machine (Verilog)
