@@ -1,6 +1,8 @@
 # Nathalie-Chang-Projects
 ## Animatable Musician with InstantAvatar
 ## Speaker Verfication Light Weight Model
+Experiments on pruning spkrec-ecapa-voxceleb speaker verification model and compared the error rate with original model trained on the same dataset.
+Reached similar error rate and was able to inference at a faster speed.
 ## Image classifaction Light Weight Model
 ## Smart Watch using LVGL
 ## Claw Machine (Verilog)
