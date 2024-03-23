@@ -1,4 +1,9 @@
 # Nathalie-Chang-Projects
+## Animatable Musician with InstantAvatar
+## Speaker Verfication Light Weight Model
+## Image classifaction Light Weight Model
+## Smart Watch using LVGL
+
 ## Claw Machine (Verilog)
 DIY claw machine using FPGA  
 [Demonstration Video](https://youtu.be/3RMaly5097s)
