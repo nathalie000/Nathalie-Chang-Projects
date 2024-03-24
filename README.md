@@ -13,8 +13,8 @@ We trained a light wieght image classifacation model (ShuffleNetV2-x0.5) using d
 A smart watch interface implemented using the computer graphic library LVGL.
 
 ## Parallel Programming: Linear Regression with RANSAC
-We designed a simple parallelized RANSAC linear regression algorithm to run on GPU, with reduced memory copy time.
-Experiments on using different parallel programming library are also conducted, details and result analysis can be found in the report.
+We designed a simple parallelized RANSAC linear regression algorithm to run on GPU that reduced the runtime on CPU by 0.95%.
+Experiments on using different parallel programming library and distinct parallel settings are also conducted, details and result analysis can be found in the report.
 
 
 ## Claw Machine (Verilog)
