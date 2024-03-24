@@ -11,6 +11,8 @@ We trained a light wieght image classifacation model (ShuffleNetV2-x0.5) using d
 ) that has 109 times larger number of parameters than our model. Training detail and result analysis are in the report.
 ## Smart Watch using LVGL
 A smart watch interface implemented using the computer graphic library LVGL.
+
+## Parallelized 
 ## Claw Machine (Verilog)
 DIY claw machine using FPGA  
 [Demonstration Video](https://youtu.be/3RMaly5097s)
