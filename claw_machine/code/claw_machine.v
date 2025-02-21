@@ -2,6 +2,7 @@
 `define PLAY 3'b01
 `define WAIT_RESULT 3'b10
 
+
 module top(
     input clk, 
     input reset, 
